@@ -9,7 +9,7 @@ import "normalize.css/normalize.css";
 import "./index.css";
 // import amplifyConfig from "./aws-exports";
 
-Amplify.configure(amplifyConfig);
+// Amplify.configure(amplifyConfig);
 Amplify.addPluggable(new AmazonAIPredictionsProvider());
 
 ReactDOM.render(<App />, document.getElementById("root"));
